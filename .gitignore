@@ -1,0 +1,31 @@
+# Python
+/.venv/
+/.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build and coverage artifacts
+/build/
+/dist/
+/.coverage
+/htmlcov/
+
+# Local environment and machine files
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Private/local GoodNotes material and generated analysis outputs
+/outputs/
+/work/
+/local/
+/local_*/
+/samples-private/
+/test-materials-private/
+*.goodnotes
+*.pdf
+
+# Allow intentionally sanitized public examples when added explicitly.
+!examples/**/*.pdf
